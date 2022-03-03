@@ -36,7 +36,7 @@ input {
 
     border: 0px solid;
     border-radius: 8px;
-    
+
     transition-duration: 0.5s;
 }
 
@@ -101,6 +101,24 @@ textarea {
 }
 
 form {
+  width: 600px;
+  margin: auto;
+  padding: 20px 0 40px 0;
+
+  color: rgb(248, 168, 248);
+  text-shadow: rgb(248, 168, 248) 0px 0px 6px;
+  
+  border: medium solid rgb(82, 59, 0);
+  border-width: 7px;
+  border-radius: 14px;
+  
+  background-color: rgb(36, 13, 27);
+  
+
+  transition-duration: 0.5s;
+}
+
+form:hover {
   width: 600px;
   margin: auto;
   padding: 20px 0 40px 0;
